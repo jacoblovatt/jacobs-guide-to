@@ -1,0 +1,20 @@
+project:
+  type: book
+  output-dir: _book
+metadata-files:
+  - ../../shared/_book.yml
+book:
+  title: "Jacob’s Guide to Calculus"
+  output-file: calculus
+  search: true
+  downloads: [pdf]
+  sidebar:
+    tools:
+      - icon: collection
+        text: All guides
+        href: ../index.html
+  chapters:
+    - index.qmd
+    - why-integrating-factors-work.qmd
+    - references.qmd
+bibliography: references.bib

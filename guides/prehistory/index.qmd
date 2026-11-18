@@ -1,0 +1,18 @@
+# A starting point {.unnumbered}
+
+How do we infer a human past that has no surviving written account?
+
+This guide is at the planning stage. This introduction describes its intended
+scope; it does not yet contain teaching chapters.
+
+## Proposed contents {.unnumbered}
+
+- Evidence and dating methods.
+- Human evolution and migration.
+- Agriculture and settlement.
+
+These topics are plans and may change as I learn. Each future chapter will begin
+with a specific question, develop an explanation and give the reader something
+to check or try.
+
+{{< include ../../shared/_reading-note.qmd >}}

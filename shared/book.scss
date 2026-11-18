@@ -1,0 +1,19 @@
+/*-- scss:rules --*/
+:root { --guide-ink: #243240; --guide-accent: #205d67; }
+body { color: var(--guide-ink); line-height: 1.7; }
+main.content { max-width: 49rem; }
+h1, h2, h3, h4 { color: var(--guide-ink); font-weight: 600; }
+a { color: var(--guide-accent); text-underline-offset: .15em; }
+.sidebar-title { line-height: 1.3; }
+.callout { background: #f7f9f9; }
+.quarto-figure { margin: 2rem 0; }
+figcaption { color: #46535e; }
+.table { font-size: .95em; }
+:focus-visible { outline: 3px solid #a44c00; outline-offset: 3px; }
+@media (max-width: 600px) {
+  body { font-size: 1rem; }
+  h1 { font-size: 1.85rem; }
+  main.content { padding-inline: .2rem; }
+  .math.display { max-width: 100%; overflow-x: auto; }
+}
+@media print { body { color: #000; } }

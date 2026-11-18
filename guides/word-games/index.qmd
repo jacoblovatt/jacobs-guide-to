@@ -1,0 +1,18 @@
+# A starting point {.unnumbered}
+
+What makes a word puzzle satisfying, and how can I reason about possible answers?
+
+This guide is at the planning stage. This introduction describes its intended
+scope; it does not yet contain teaching chapters.
+
+## Proposed contents {.unnumbered}
+
+- Letter frequencies and constraints.
+- Anagrams and word lists.
+- Strategies, fairness and uncertainty.
+
+These topics are plans and may change as I learn. Each future chapter will begin
+with a specific question, develop an explanation and give the reader something
+to check or try.
+
+{{< include ../../shared/_reading-note.qmd >}}

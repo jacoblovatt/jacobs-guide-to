@@ -1,0 +1,8 @@
+/build/
+/.tools/
+**/.quarto/
+**/_book/
+**/*.quarto_ipynb
+__pycache__/
+*.pyc
+_quarto.yml.local

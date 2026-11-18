@@ -1,0 +1,18 @@
+# Copy this directory to guides/<slug>, then replace SLUG and TITLE.
+project:
+  type: book
+  output-dir: _book
+metadata-files:
+  - ../../shared/_book.yml
+book:
+  title: "Jacob’s Guide to TITLE"
+  output-file: SLUG
+  search: true
+  downloads: [pdf]
+  sidebar:
+    tools:
+      - icon: collection
+        text: All guides
+        href: ../index.html
+  chapters:
+    - index.qmd

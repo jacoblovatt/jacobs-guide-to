@@ -1,0 +1,4 @@
+## How this guide will grow {.unnumbered}
+
+I will add chapters after checking their explanations, examples and sources.
+The HTML and downloadable PDF will be built from the same reviewed text.

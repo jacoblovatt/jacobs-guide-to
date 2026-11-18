@@ -1,0 +1,11 @@
+# A starting point {.unnumbered}
+
+State the question this guide explores and who it is for.
+
+This is a starter introduction. Teaching chapters have not yet been written.
+
+## Proposed contents {.unnumbered}
+
+Replace with a short, honest list of planned topics.
+
+{{< include ../../shared/_reading-note.qmd >}}

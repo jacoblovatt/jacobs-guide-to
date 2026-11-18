@@ -1,0 +1,32 @@
+name: Validate guides
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Read tested Quarto version
+        id: quarto
+        run: echo "version=$(cat .quarto-version)" >> "$GITHUB_OUTPUT"
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: ${{ steps.quarto.outputs.version }}
+      - name: Install supported PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-texgyre poppler-utils
+      - run: make doctor
+      - run: make public
+      - run: make check
+      - run: make regression

@@ -1,0 +1,17 @@
+project:
+  type: book
+  output-dir: _book
+metadata-files:
+  - ../../shared/_book.yml
+book:
+  title: "Jacob’s Guide to Arithmetic"
+  output-file: arithmetic
+  search: true
+  downloads: [pdf]
+  sidebar:
+    tools:
+      - icon: collection
+        text: All guides
+        href: ../index.html
+  chapters:
+    - index.qmd

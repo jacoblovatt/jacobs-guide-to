@@ -1,0 +1,13 @@
+# About this guide {.unnumbered}
+
+Calculus becomes more useful when I can explain why a method works, rather than
+just remember the steps. This living guide records those explanations as I learn.
+It assumes some familiarity with differentiation and integration.
+
+The first chapter starts with a question: **why does an integrating factor turn a
+differential equation into something we can integrate?** It includes a worked
+initial-value problem and exercises with separate solutions.
+
+This is a growing guide, not a complete calculus course. Proposed later topics
+include limits, the fundamental theorem of calculus and choosing integration
+methods. Those topics are plans, not completed chapters.

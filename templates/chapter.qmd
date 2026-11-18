@@ -1,0 +1,38 @@
+# A specific question as the title {#sec-replace-me}
+
+<!-- Review-ready draft: do not list in book.chapters until checked.
+Replace every prompt and anchor; remove this comment when reviewed. -->
+
+State the question, assumed knowledge and what the reader will be able to do.
+
+## Why the idea works
+
+Develop the explanation in small steps. Use $a+b$ for inline mathematics.
+
+$$
+a+b=b+a.
+$$ {#eq-replace-me}
+
+Refer back to @eq-replace-me. Replace this demonstration with relevant content.
+
+## Worked example
+
+Show the reasoning, answer and an independent check.
+
+<!-- Figure pattern (supply a real image and meaningful alt text):
+![Useful caption.](assets/chapter-stem/figure.png){#fig-unique-name fig-alt="Describe the information conveyed by the figure."}
+-->
+
+## Exercises
+
+1. A short question that tests the main idea.
+2. A slightly different application.
+
+## Solutions
+
+Explain and check each answer separately.
+
+## Sources and further reading
+
+Cite a verified bibliography entry with @citation-key, after adding it to the
+book's .bib file. Delete this prompt if no external source is used.
